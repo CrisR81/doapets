@@ -1,0 +1,31 @@
+.header {
+    background-color: chartreuse;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+
+}
+
+.menu>nav{
+   display: flex;
+   margin-right: 150px;
+
+}
+
+.entrar {
+    margin-right: 10px;
+
+}
+
+.Cadastre-se {
+    margin-left: 10px;
+
+}
+
+.logotipo {
+    height: 40%;
+    width: 50%;
+    margin-left: 150px;
+}

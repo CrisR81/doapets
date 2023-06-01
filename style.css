@@ -15,13 +15,19 @@
 }
 
 .entrar {
-    margin-right: 10px;
-
+    margin-right: 20px;
+      
 }
 
 .Cadastre-se {
-    margin-left: 10px;
+    margin-left: 20px;
 
+}
+
+nav {
+text-decoration: none;
+font-size: 40px;
+text-transform: uppercase;
 }
 
 .logotipo {

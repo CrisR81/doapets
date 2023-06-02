@@ -1,37 +1,73 @@
+* {
+    margin: 0;
+    padding:0  ;
+    box-sizing: border-box;
+}
+
+:root { 
+    
+    --fonte_raleway: 'Raleway', sans-serif;
+    
+}
+
+body {
+    font-family: var(--fonte_raleway);
+}
+
 .header {
-    background-color: chartreuse;
-    height: 90px;
+    background-color: rgb(255, 255, 255);
+    height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
   
-
 }
 
-.menu>nav{
-   display: flex;
-   margin-right: 150px;
+.menu a{
+
+   text-decoration: none;
+   font-family: 
 
 }
 
 .entrar {
-    margin-right: 20px;
-      
+    margin-right: 10px;
+    font-size: 15px; 
+
+
 }
 
 .Cadastre-se {
-    margin-left: 20px;
-
+    margin-right: 180px;  
+    font-size: 15px;
+    color: #FF6E22;
 }
 
 nav {
-text-decoration: none;
 font-size: 40px;
-text-transform: uppercase;
+
 }
 
 .logotipo {
     height: 40%;
     width: 50%;
     margin-left: 150px;
+}
+
+.primeira_secao {
+background-color: #aeff22;
+height: 400px;
+font-size: 40px;
+
+}
+
+.quadrado_esquerdo {
+
+    width: 50%;
+    background-color: aqua;
+    height: 400px;
+}
+
+h1 {font-size: 40px;
 }

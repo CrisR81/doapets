@@ -16,8 +16,9 @@ body {
 
 
 .header {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(251, 247, 247);
     height: 60px;
+ 
     display: flex;
     justify-content:space-between     ;  
     align-items: center;
@@ -26,18 +27,23 @@ body {
 
 .menu a{
    text-decoration: none;
-   font-family: 
+   font-family: var(--fonte_raleway);
+ 
 }
 
 .entrar {
     margin-right: 10px;
     font-size: 15px; 
+font-weight:  bolder    
+
 }
 
 .Cadastre-se {
     /* margin-right: 180px;   */
     font-size: 15px;
     color: #FF6E22;
+    margin-right: 50px;
+    font-weight: bolder   
 }
 
 
@@ -45,6 +51,7 @@ body {
     /* height: 80%;  PORQUE NAO MUDA DE TAMANHO? SOMENTE O WIDHT MUDA?*/
     width: 70%;
     margin-left: 50px;
+    
     /* margin-left: 150px;  */
 }
 /* 
@@ -65,7 +72,11 @@ font-size: 40px;
 .quadrado_esquerdo_e_direito
 
 {display: flex;
+
+
+
 }
+
 
 .quadrado_esquerdo {
 
@@ -92,10 +103,17 @@ font-size: 40px;
 
 h1 {font-size: 40px;
      margin-left: 50px;
+     padding-bottom: 200px ;
+}
+
+.edicao1_h1 {
+position: relative;
+top: 50px
+
 }
 
 h2 {
-    font-size: 15px;
+    font-size: 22px;
     font-weight: 300;
      margin-left: 50px;
 }
@@ -109,12 +127,18 @@ h2 {
     width: 120px;
     border-radius: 01vh;
      margin-left: 50px;
+     margin-top: 20px;
+    
+    }
 
-}
+    .alinhamento_quadrado_esquerdo {
+     position: relative;
+     bottom: 100px;
+    }
 
 .grupo_cachorros {
 
-    height: 70%; 
+    height: 80%; 
 
 }
    

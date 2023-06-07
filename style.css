@@ -3,14 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 
-}   
+}
 
 .container {
-    width: 80%;
+    width: 90%;
     max-width: 1350px;
-    margin: 0 auto;   
+    margin: 0 auto;
 
-    }
+}
 
 
 
@@ -23,7 +23,7 @@
 
 body {
     font-family: var(--fonte_raleway);
-   
+
 }
 
 header {
@@ -79,8 +79,8 @@ font-size: 40px;
 } */
 
 .segunda_secao {
-    background-color:      rgba(255, 136, 0, 0.15);
-        height: 450px;
+    background-color: rgba(255, 136, 0, 0.15);
+    height: 700px;
     font-size: 40px;
 
 }
@@ -118,16 +118,16 @@ font-size: 40px;
 
 h1 {
     font-size: 45px;
-    
-    padding-bottom: 200px;
+
+
 }
 
 .edicao1_h1 {
     position: relative;
     top: 50px;
     margin-left: 10%;
-    font-weight: 900;
-    font-size: 300% ;
+    font-weight: 700;
+    font-size: 300%;
 
 }
 
@@ -165,20 +165,20 @@ h2 {
 }
 
 .grupo_cachorros {
- 
+
     height: 90%;
     margin-left: 2%;
 
 }
 
 .titulo_secao2 {
-   display: flex;
-   align-items: center;
-   justify-content: center;
-    padding: 40px;
-text-align: center;
-    width: 65%;
-   
+
+    margin-top: 60px;
+
+
+    text-align: center;
+    width: 53%;
+
 }
 
 .edicao_texto_Selecione {
@@ -190,5 +190,26 @@ text-align: center;
 
 
 .mulheres_com_canhorros {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
 
+}
+
+.secao3 {
+
+    background-color: #FF6E22;
+    height: 600px;
+}
+
+/* .secao3 {
+    display: flex;
+} */
+
+.textos_secao3 {
+    width: 50%;
+}
+
+.teste_container_S3 {
+    display: flex;
 }
